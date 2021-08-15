@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGODB_URI": "mongodb://localhost:27017/ninjago",
+        "JWT_KEY": "secret",
+        "PORT": 4000
+    }
+}

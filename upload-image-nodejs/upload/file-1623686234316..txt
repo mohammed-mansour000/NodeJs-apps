@@ -1,0 +1,32 @@
+const express = require('express');
+const app = express();
+const mysql = require('mysql');
+
+const db_connection = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'test'
+});
+
+db_connection.connect((err) => {
+  if (err) console.error(err);
+  console.log('MySQL Connection Established.');
+});
+
+const getUsers = () => new Promise((resolve, reject) => {
+  db_connection.query('SELECT * FROM USERS', (err, results) => {
+    if (err) console.error(err);
+    console.log('User Query Results: ', results);
+    resolve(results);
+    db_connection.end(err => { if (err) console.error(err) });
+  });
+});
+
+app.get('/', (req, res) => {
+  getUsers()
+    .then(users => res.send(users))
+    .catch(err => console.error(err));
+});
+
+///////////////////////////////////////////////////////////////////////

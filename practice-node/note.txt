@@ -1,0 +1,9 @@
+to create web API in easy way(not only way):
+1.npm install -g json-server
+2.create db.json
+3.run it using json-server --watch db.json
+4.put the localhost link in the html page
+
+ npm init -y :
+create package.json that save in dependencies the module-package that instaled
+to get it again type ( npm i )

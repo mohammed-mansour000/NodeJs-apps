@@ -1,0 +1,15 @@
+<ul id="tr">
+
+</ul>
+<script>
+    fetch('http://localhost:3000/students') /* http://jsonplaceholder.typicode.com/todos */
+    .then(response => response.json())
+    .then(json => {
+        json.forEach(element => {
+            var x = document.createElement('li');
+            x.innerHTML = element.name;
+            document.getElementById('tr').appendChild(x);
+        });
+    
+    })
+</script>

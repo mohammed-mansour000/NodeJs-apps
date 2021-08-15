@@ -1,0 +1,13 @@
+.container{
+   border:2px solid black;
+   width:600px;
+   height: 300px;
+   padding:50px;
+   margin-top:50px;
+}
+
+.container div{
+    width:500px;
+    height:500px;
+    margin:auto;
+}

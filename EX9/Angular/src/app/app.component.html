@@ -1,0 +1,16 @@
+<!-- <div class="row" class="container">
+  <div class="col" class="form">
+    <input type="text" class="form-control" placeholder="First name" aria-label="First name"><br>
+    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    <input type="submit" value="submit" onclick = "onsubmit()">
+  </div>
+</div> -->
+
+
+
+<h1> call post API in Angular </h1>
+<form #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value)">
+    <input type="text" name="first_name" ngModel placeholder="name"><br><br>
+    <input type="text" name="last_name" ngModel placeholder="email"><br><br>
+    <button type="submit">Submit data</button>
+</form>

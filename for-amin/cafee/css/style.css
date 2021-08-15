@@ -1,0 +1,304 @@
+a:hover{
+    text-decoration: none;
+}
+
+.navbar{
+    background: #fff !important;
+    border-bottom: 1px solid #EEE;
+}
+.banar{
+    background: url(../img/78-225556-biology-love-hate-coffee_700x400.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #a01616;
+    position: relative;
+    height:80vh ;
+	text-align: center;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%; 
+   
+}
+
+.banar .lib-info{
+    padding-top: 140px;
+    margin: auto;
+}
+.banar .lib-info h4{
+    font-size: 65px;
+    font-weight: bold;
+    padding: 10px;
+    color: #fff;
+    font-family: cursive;
+}
+.banar .lib-info p{
+    color: #bbb;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 30px;
+    font-family: cursive;
+}
+.books{
+    margin: 50px 0;
+}
+.card{
+    margin-bottom: 30px;
+}
+.img-cover{
+    /* height: 250px; */
+    overflow: hidden;
+}
+.img-cover .card-img-top{
+    /* width: 100%; */
+    height: auto;
+    display: block;
+}
+.card-title a{
+transition: 0.3s;
+}
+.card-title a:hover{
+
+}
+.card-text{
+    color: #777;
+    line-height: 30px;
+
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #64a19d;
+    border-color: #64a19d;
+}
+
+.btn-primary:hover{
+    background-color: #49688a;
+    border-color: #49688a;
+}
+
+button.custom-btn{
+    padding: 10px;
+    border: 1px solid #555;
+    outline: none;
+    transition: 0.3s;
+}
+button.custom-btn:hover{
+    background: #555;
+}
+button.custom-btn a{
+    color: #555;
+    font-size: 18px;
+    display: block;
+}
+button.custom-btn a:hover{
+    text-decoration: none;
+    color: #fff;
+
+}
+.book-content{
+    text-align: left;
+}
+
+.book-contentA{
+    text-align: right;
+}
+
+
+/* start of footer */
+
+footer{
+	
+	bottom: 0;
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+    vertical-align: middle;
+    transition: all .3s ease-in-out;
+}
+
+.footer-distributed .footer-center i:hover{
+    color:  #33383b;
+	background-color: #ffffff;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+    margin-bottom: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.footer-distributed .footer-icons a:hover:first-child{
+    background-color:  #3b5998;
+    color: #fff;
+}
+
+.footer-distributed .footer-icons a:hover:nth-child(2){
+    background-color:  #1da1f2;
+}
+ 
+.footer-distributed .footer-icons a:hover:nth-child(3){
+    background-color:  #075e54;
+}
+
+.footer-distributed .footer-icons a:hover:nth-child(4){
+    background-color:  #db0707;
+}
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+ 
+}
+
