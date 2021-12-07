@@ -1,0 +1,6 @@
+{
+    "env": {
+        "MONGODB_URI": "mongodb+srv://mansur_31:mansur_31_pass@cluster0.vqbtx.mongodb.net/node-auth",
+        "JWT_KEY": "my secret jwt token"
+    }
+}
